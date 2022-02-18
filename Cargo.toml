@@ -1,0 +1,11 @@
+[package]
+name = "rust-print"
+description = "An attempt to improve my ability to design complex 3d shapes"
+authors = ["Christopher Hotchkiss <christopher.hotchkiss@gmail.com>"]
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/chotchki/rust-print"
+license = "MIT"
+
+[dependencies]
+iced = "0.3"
