@@ -1,0 +1,6 @@
+{
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/check-and-lint.yaml",
+    ],
+    "github-actions.workflows.pinned.refresh.enabled": true
+}
