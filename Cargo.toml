@@ -8,4 +8,11 @@ repository = "https://github.com/chotchki/rust-print"
 license = "MIT"
 
 [dependencies]
-iced = "0.3"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+thiserror = "1"
+
+winit = "0.26"
+env_logger = "0.9"
+log = "0.4"
+wgpu = "0.12"
+stl_io = "0.6.0"
